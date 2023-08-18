@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{6C0CB442-3A42-5422-D7FE-F0DFA540D62F}|">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="c351758c-cb3d-4225-8a64-32e34c08ebed" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/LevelComplete.cs">
+    <Files>
+      <File FileName="Assets/PlayerMat.mat" Line="1" Column="1" />
+      <File FileName="Assets/PlayerCollision.cs" Line="15" Column="2" />
+      <File FileName="Assets/FollowPlayer.cs" Line="13" Column="2" />
+      <File FileName="Assets/Score.cs" Line="14" Column="55" />
+      <File FileName="Assets/GameManager.cs" Line="12" Column="41" />
+      <File FileName="Assets/Scripts/PlayerMovement.cs" Line="1" Column="1" />
+      <File FileName="Assets/EndTrigger.cs" Line="12" Column="1" />
+      <File FileName="Assets/LevelComplete.cs" Line="8" Column="78" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="First Game" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>
