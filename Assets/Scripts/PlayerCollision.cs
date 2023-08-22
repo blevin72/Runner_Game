@@ -6,10 +6,12 @@ public class PlayerCollision : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
-        if (collision.collider.tag == "Obstacle" || collision.collider.tag == "TransparentObstacle")
+        if (collision.collider.tag == "Obstacle" || collision.collider.tag == "TransparentObstacle" ||
+            collision.collider.tag == "MovingObstacle")
         {
             movement.enabled = false;
             FindObjectOfType<GameManager>().EndGame();
         }
+
     }
 }

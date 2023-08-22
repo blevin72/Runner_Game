@@ -12,18 +12,18 @@ public class GameManager : MonoBehaviour
         completeLevelUI.SetActive(true);
     }
 
+    void Restart()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
     public void EndGame()
     {
-        if(gameHasEnded == false)
-        { 
+        if (gameHasEnded == false)
+        {
             gameHasEnded = true;
             Debug.Log("Game Over");
             Invoke("Restart", restartDelay);
         }
-    }
-
-    void Restart()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }

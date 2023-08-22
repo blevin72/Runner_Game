@@ -6,6 +6,7 @@ public class PlayerMovement : MonoBehaviour
 
     public float forwardForce = 2000f; //force being applied to the player forward movement
     public float sidewaysForce = 500f; //force being applied to the player's left/right movement
+    public float jumpForce = 10f; //force being applied when a player jumps
 
     // Update is called once per frame
     void FixedUpdate()
@@ -26,6 +27,11 @@ public class PlayerMovement : MonoBehaviour
         if (rb.position.y < -1f)
         {
             FindObjectOfType<GameManager>().EndGame();
+        }
+
+        if (Input.GetKeyDown(KeyCode.Space) && rb.position.y < 1.02f)
+        {
+            rb.AddForce(0, jumpForce, 0, ForceMode.Impulse);
         }
     }
 }
