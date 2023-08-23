@@ -361,6 +361,7 @@
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/LeftToRight.cs"
 "Assets/Scripts/LevelComplete.cs"
+"Assets/Scripts/PauseMenu.cs"
 "Assets/Scripts/PlayerCollision.cs"
 "Assets/Scripts/PlayerMovement.cs"
 "Assets/Scripts/RightToLeft.cs"

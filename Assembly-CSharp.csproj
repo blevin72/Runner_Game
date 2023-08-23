@@ -66,6 +66,7 @@
     <Compile Include="Assets/Scripts/GameManager.cs" />
     <Compile Include="Assets/Scripts/Score.cs" />
     <Compile Include="Assets/Scripts/LevelComplete.cs" />
+    <Compile Include="Assets/Scripts/PauseMenu.cs" />
     <Compile Include="Assets/Scripts/LeftToRight.cs" />
     <Compile Include="Assets/Scripts/FollowPlayer.cs" />
     <Compile Include="Assets/Scripts/PlayerMovement.cs" />
